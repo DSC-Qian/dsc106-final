@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<!--
+	Tessellate by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Grocery Basket - Jiali Qian</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/heatmap.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="./chart.js"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header" class="dark">
+				<header>
+					<h1><b style='color:black'>Grocery Basket</b></h1>
+					<p><b style='color:black'>DSC 106 Final Project by Jiali Qian</b></p>
+				</header>
+				<footer>
+				</footer>
+			</section>
+
+		<!-- First -->
+			<section id="first" class="main">
+				<header>
+					<div class="container">
+						<h2>Grocery stores are essential businesses</h2>
+						<p>Everyone buys groceries. What products do customers purchase most often? Which category is their favorite?<br />
+            Let's take a look at the data visualizations based on <a href=https://www.kaggle.com/heeraldedhia/groceries-dataset>Groceries Dataset from Kaggle</a>.</p>
+					</div>
+				</header>
+				<div class="content dark style1 featured">
+					<div class="container">
+						<div class="row">
+                  <div id="column-chart" style="width:80%; height:100%;margin: 0 auto;"></div>
+									<p>From the chart, we can see that whole milk is bought most often. And four of them are fresh produce. Others include diary products, meat, and beverages.
+                    From common sense, these are pretty much what we expect people to buy when doing grocery shopping.
+                  </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Second -->
+			<section id="second" class="main">
+				<header>
+					<div class="container">
+						<h2>What else do people love to buy?</h2>
+						<p>Let us look at a packed bubble chart with 100 most purchased products.<br />
+						<b>Click on any bubble to display another bar chart showing details of the corresponding category.</b></p>
+					</div>
+				</header>
+				<div class="content dark style2">
+					<div class="container">
+						<div class="row">
+                  <div id="radial-chart" style="width:80%; height:100%;margin: 0 auto;"></div>
+									<p>The categories are manually assigned, so they might be inaccurate. From the chart, we can see that fresh produce and diary products are purchased most often.</p>
+                  <div id="bar-chart" style="width:80%; height:100%;margin: 0 auto;"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Third -->
+			<section id="third" class="main">
+				<header>
+					<div class="container">
+						<h2>When do people go grocery shopping more often?</h2>
+						<p>Let's see an area chart of numbers of products sold for each day from the beginning of 2014 to the end of 2015. <br /></p>
+					</div>
+				</header>
+				<div class="content dark style3">
+					<div class="container">
+                <div id="area-chart" style="width:80%; height:100%;margin: 0 auto;"></div>
+                <br>
+                <p>We can see a lot of peaks here, but they only represent the number of products purchased that day. What if we look at the number of unique customers by day of the week and by month?</p>
+                <div id="heatmap" style="width:80%; height:100%;margin: 0 auto;"></div>
+                <br>
+                <p>Note that for clearer comparison, the color legend does not start from zero. Sometimes we see more customers on weekends, sometimes we do not. The number of entries is a little limited, so we are not able to see a clear pattern here. </p>
+            </div>
+            
+					</div>
+				</div>
+      </section>
+      
+      <section id="fourth" class="main">
+				<header>
+					<div class="container">
+						<h2>Thank you for reading!</h2>
+					</div>
+        </header>
+      </section>
+	</body>
+</html>

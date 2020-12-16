@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    background-image: url('market.jpg');
+    background-color:#cfc19d;
+    font-family: Verdana, sans-serif;
+    background-size: cover;
+}
+

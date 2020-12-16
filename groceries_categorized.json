@@ -1,0 +1,11 @@
+{"Dairy":{"whole milk":2502,"yogurt":1334,"whipped\/sour cream":662, "domestic eggs":566,"butter":534,"curd":514,"cream cheese ":358,"UHT-milk":323,"butter milk":263,"hard cheese":220,"sliced cheese":212,"soft cheese":152,"processed cheese":152,"spread cheese":100,"condensed milk":98,"mayonnaise":75,"specialty cheese":72},
+ "Alcohol":{"canned beer":717,"bottled beer":687,"white wine":176,"red\/blush wine":157,"liquor":103,"liquor (appetizer)":67},
+ "Canned Goods": {"canned vegetables":82,"canned fish":116},
+ "Beverages":{"soda":1514,"bottled water":933,"fruit\/vegetable juice":518,"coffee":476,"beverages":251,"misc. beverages":238,"instant coffee":61},
+ "Bakery":{"rolls\/buns":1716,"pastry":785,"brown bread":571,"white bread":362,"long life bakery product":269,"semi-finished bread":142,"roll products ":82},
+ "Dry\/Baking Goods":{"margarine":491,"sugar":265,"oil":225,"flour":146,"baking powder":122,"pasta":121,"mustard":92,"salt":89},
+ "Meat":{"sausage":924,"frankfurter":580,"pork":566,"beef":516,"chicken":422,"hamburger meat":327,"ham":256,"meat":254,"turkey":80},
+ "Produce":{"other vegetables":1898,"root vegetables":1071,"tropical fruit":1032,"citrus fruit":812,"pip fruit":744,"frozen vegetables":425,"berries":327,"onions":305,"grapes":220,"pickled vegetables":134,"packaged fruit\/vegetables":128,"seasonal products":106},
+ "Frozen Food":{"waffles":280,"frozen meals":252,"ice cream":227,"frozen fish":102,"frozen dessert":92},
+ "Snacks":{"chocolate":357, "dessert":356, "salty snack":283,"specialty chocolate":240,"candy":219,"specialty bar":210,"chewing gum":181,"cake bar":93,"frozen potato products":72,"sweet spreads":69,"finished products":64},
+ "Other":{"shopping bags":731,"newspapers":596, "napkins":335,"cat food":177,"herbs":159,"dishes":135,"detergent":130,"pot plants":118,"pet care":85,"photo\/film":79,"cling film\/bags":74,"dish cleaner":73,"flower (seeds)":70,"dog food":67,"candles":66,"hygiene articles":208}}
