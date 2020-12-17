@@ -304,13 +304,13 @@ function plotHeatmap() {
 
         tooltip: {
             formatter: function () {
-                return '<b>' + getPointCategoryName(this.point, 'x') + '</b> sold <br><b>' +
-                    this.point.value + '</b> items on <br><b>' + getPointCategoryName(this.point, 'y') + '</b>';
+                return '<b>' +
+                    this.point.value + '</b> customers in total on <br><b>' + getPointCategoryName(this.point, 'y') + 's in </b>' + '<b>' + getPointCategoryName(this.point, 'x')+ '</b>';
             }
         },
 
         series: [{
-            name: 'Sales per employee',
+            name: 'Number of customers',
             borderWidth: 1,
             data: [
             [0, 0, 161], [0, 1, 164], [0, 2, 187], [0, 3, 226], [0, 4, 192], [0, 5, 193], [0, 6, 168], 
